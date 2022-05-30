@@ -1,0 +1,46 @@
+.root {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    width: 100%;
+
+    font-weight: var(--fontWeightSemiBold);
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    /*overflow: hidden;*/
+}
+
+.itemSort {
+    border-top: 1px solid #DFE5EC;
+    border-bottom: 1px solid #DFE5EC;
+    background: var(--ligthBackground);
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+}
+.rightBorder {
+    border-right: 1px solid #DFE5EC;
+    border-radius: 0 5px 5px 0;
+}
+.leftBorder {
+    border-left: 1px solid #DFE5EC;
+    border-radius: 5px 0 0 5px;
+}
+.leftBord {
+    border-left: 1px solid #DFE5EC;
+}
+.rightBord {
+    border-right: 1px solid #DFE5EC;
+}
+
+.selectItem {
+    background: var(--mainColor);
+    border: 1px solid var(--mainColor);
+    color: var(--ligthBackground);
+}

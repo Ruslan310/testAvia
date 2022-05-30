@@ -1,0 +1,27 @@
+:root {
+
+    --ligthBackground: #FFFFFF;
+    --mainColor: #2196F3;
+    --subColor: #A0B0B9;
+    --selectColor: #F1FCFF;
+
+    --itemShadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    --itemRadius: 5px;
+
+    --mainFonts: #4A4A4A;
+
+    --fontWeightRegular: 400;
+    --fontWeightMedium: 500;
+    --fontWeightSemiBold: 600;
+    --fontWeightBold: 700;
+
+}
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: #F3F7FA;
+    color: var(--mainFonts);
+}

@@ -1,0 +1,16 @@
+.root {
+    height: 120px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @media (min-width: 1024px) {
+        height: 160px;
+    }
+}
+.imgHeader {
+    width: 60px;
+    height: 60px;
+}

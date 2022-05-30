@@ -1,0 +1,41 @@
+.root {
+    background: var(--ligthBackground);
+    width: 232px;
+    padding: 20px 0 10px;
+    border-radius: var(--itemRadius);
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.titleBlock {
+    margin: 0 0 10px 0;
+    padding-left: 20px;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 0.5px;
+    font-weight: var(--fontWeightSemiBold);
+    text-transform: uppercase;
+}
+
+.checkedItem {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    padding-left: 20px;
+    line-height: 20px;
+    cursor: pointer;
+    font-weight: var(--fontWeightRegular);
+}
+.mainCheckBox {
+    display: none;
+}
+
+.checkedItem:hover {
+    background: var(--selectColor);
+}
+
+.checkedText {
+    margin-left: 10px;
+}

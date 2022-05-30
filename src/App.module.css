@@ -1,0 +1,9 @@
+.root {
+
+}
+
+.wrapperContainer {
+    width: 754px;
+    display: flex;
+    margin: 0 auto;
+}
